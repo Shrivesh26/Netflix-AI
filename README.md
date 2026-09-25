@@ -1030,7 +1030,7 @@ Login / Sign Up form validation utilities.
 ## 1. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Shrivesh26/Netflix-AI.git
 ```
 
 ## 2. Navigate to the Project
