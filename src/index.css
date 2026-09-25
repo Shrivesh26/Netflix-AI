@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.movie-scroll {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.movie-scroll::-webkit-scrollbar {
+  display: none;
+}
