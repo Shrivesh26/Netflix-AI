@@ -1,6 +1,5 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
 import { getAuth } from "firebase/auth";
 
 // TODO: Add SDKs for Firebase products that you want to use
@@ -10,16 +9,14 @@ import { getAuth } from "firebase/auth";
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_KEY,
-  authDomain: "netflixgpt-14f88.firebaseapp.com",
-  projectId: "netflixgpt-14f88",
-  storageBucket: "netflixgpt-14f88.firebasestorage.app",
-  messagingSenderId: "424290149472",
-  appId: "1:424290149472:web:680dc9f032931383890f05",
-  measurementId: "G-2LBMV3VPJJ"
+  authDomain: "netflixai-01.firebaseapp.com",
+  projectId: "netflixai-01",
+  storageBucket: "netflixai-01.firebasestorage.app",
+  messagingSenderId: "398172480952",
+  appId: "1:398172480952:web:4ab28dc7601a516e359b4d"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 
 export const auth = getAuth();
