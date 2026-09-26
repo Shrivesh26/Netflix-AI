@@ -662,6 +662,7 @@ Example:
 ```env
 VITE_TMDB_KEY=your_tmdb_api_key
 VITE_GEMINI_API_KEY=your_gemini_api_key
+VITE_FIREBASE_KEY=your_firebase_key
 ```
 
 The `.env` file should **not be committed to GitHub**.
